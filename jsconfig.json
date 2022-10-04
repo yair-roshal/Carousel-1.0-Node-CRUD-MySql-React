@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"jsx": "react",
+		"baseUrl": ".",
+		"paths": {
+			"@components": ["src/components"]
+		}
+	},
+	"include": ["src/**/*.jsx", "src/components/*.jsx"],
+	"exclude": ["node_modules", "**/node_modules"]
+}
