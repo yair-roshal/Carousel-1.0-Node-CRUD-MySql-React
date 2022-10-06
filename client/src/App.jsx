@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { StartPageComponent } from './components/StartPageComponent';
 import { PageOneComponent } from './components/PageOneComponent';
 import { PageTwoComponent } from './components/PageTwoComponent';
-import { AddWriter } from './components/changeComponents/AddWriter';
-import { UpdateWriter } from './components/changeComponents/UpdateWriter';
+import { AddWriter } from './components/operationComponents/AddWriter';
+import { UpdateWriter } from './components/operationComponents/UpdateWriter';
 import { Navbar } from './components/Navbar';
 
 export const App = () => {

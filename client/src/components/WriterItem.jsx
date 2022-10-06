@@ -1,8 +1,6 @@
 import React from 'react';
 import { userAgentMobile } from '../utils/userAgentMobile';
-import { UpdateWriter } from './changeComponents/UpdateWriter';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import axios from 'axios';
 
