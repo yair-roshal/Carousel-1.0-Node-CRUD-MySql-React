@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { AllWriters } from './AllWriters';
-import { Header } from './Header';
+import { AllWriters } from 'components'; 
+import { Header } from 'components'; 
 import { Link } from 'react-router-dom';
 
 export const PageTwoComponent = () => {

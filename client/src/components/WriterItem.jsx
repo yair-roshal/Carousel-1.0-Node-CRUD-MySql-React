@@ -1,5 +1,5 @@
 import React from 'react';
-import { userAgentMobile } from '../utils/userAgentMobile';
+import { userAgentMobile } from 'utils';
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import axios from 'axios';

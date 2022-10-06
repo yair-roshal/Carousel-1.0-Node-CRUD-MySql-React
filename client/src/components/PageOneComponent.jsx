@@ -1,8 +1,7 @@
 import React from 'react';
-import { AllWriters } from './AllWriters';
-// import { Header } from "../components";
-import { Header } from './Header';
-import { writers } from '../data/writers.js';
+import { AllWriters } from 'components';
+import { Header } from 'components';
+import { writers } from 'data';
 
 export const PageOneComponent = () => {
 	return (
