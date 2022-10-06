@@ -42,7 +42,6 @@ export const AllWriters = ({ writers, isButtons }) => {
 				className='allWriters'
 				style={{
 					transform: `translateX(${offset}px)`,
-					overflow: 'auto',
 				}}
 			>
 				{writers.map((writer, index) => (
