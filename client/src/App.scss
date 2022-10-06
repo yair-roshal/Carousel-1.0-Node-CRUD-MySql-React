@@ -208,7 +208,7 @@ $backgroundHeader: #2c2c2c;
 		height: 44px;
 		width: 960px;
 		border-right: 10px solid $redSection;
-		margin: 20px 0px;
+		margin: 16px 0px;
 		border-radius: 3px;
 		background: $backgroundHeader;
 		display: flex;
@@ -217,7 +217,7 @@ $backgroundHeader: #2c2c2c;
 			font-family: 'SimplerProRegular', Sans-serif;
 			font-size: 26px;
 			color: $white;
-			padding: 11px 28px 7px 0px;
+			padding: 8px 21px 7px 0px;
 			.bold {
 				font-weight: bold;
 			}
@@ -280,7 +280,7 @@ $backgroundHeader: #2c2c2c;
 					background-color: $backgroundShadow;
 					text-align: center;
 					line-height: 29px;
-					bottom: 16px;
+					bottom: 10px;
 					border-radius: 2px;
 					padding: 0 15px;
 					left: 50%;
@@ -304,7 +304,7 @@ $backgroundHeader: #2c2c2c;
 					padding: 9px 21px 8px;
 					background: $white;
 					text-align: center;
-
+					line-height: 1.2;
 					min-height: 77px;
 				}
 
@@ -393,6 +393,7 @@ $backgroundHeader: #2c2c2c;
 			.wrapperWriter {
 				max-width: 137px;
 				margin-left: 3px;
+				height: 247px;
 				&:first-child {
 					margin-right: 7px !important;
 				}
@@ -405,7 +406,7 @@ $backgroundHeader: #2c2c2c;
 						line-height: 19px;
 						bottom: 9px;
 						border-radius: 2px;
-						padding: 1 13px;
+						padding: 1px 13px 1px 13px;
 					}
 				}
 
@@ -413,9 +414,11 @@ $backgroundHeader: #2c2c2c;
 					.blockArticleOne {
 						font-size: 12px;
 						color: #646464;
-						padding: 8px 16px 8px;
+						padding: 16px 8px;
 						background-color: #f8f8f8;
 						max-width: 137px;
+						line-height: 16px;
+						height: 81px;
 					}
 				}
 			}
