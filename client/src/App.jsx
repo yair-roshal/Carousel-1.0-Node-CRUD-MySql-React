@@ -2,12 +2,12 @@ import React from 'react';
 import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import { StartPageComponent } from './components/StartPageComponent';
-import { PageOneComponent } from './components/PageOneComponent';
-import { PageTwoComponent } from './components/PageTwoComponent';
-import { AddWriter } from './components/operationComponents/AddWriter';
-import { UpdateWriter } from './components/operationComponents/UpdateWriter';
-import { Navbar } from './components/Navbar';
+import { StartPageComponent } from 'components';
+import { PageOneComponent } from 'components';
+import { PageTwoComponent } from 'components';
+import { AddWriter } from 'components';
+import { UpdateWriter } from 'components';
+import { Navbar } from 'components';
 
 export const App = () => {
 	return (

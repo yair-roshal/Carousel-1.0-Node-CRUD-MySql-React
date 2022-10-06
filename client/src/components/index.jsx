@@ -6,3 +6,5 @@ export * from './PageOneComponent';
 export * from './PageTwoComponent';
 export * from './WriterItem';
 export * from './operationComponents';
+export * from './Loading';
+export * from './StartPageComponent';
