@@ -260,7 +260,6 @@ $backgroundHeader: #2c2c2c;
 			position: relative;
 			border-radius: 2px;
 			margin-left: 9px;
-			max-width: 137px;
 
 			//  ImageInfo==============================================================
 
@@ -309,7 +308,6 @@ $backgroundHeader: #2c2c2c;
 					text-align: center;
 
 					min-height: 77px;
-					max-width: 137px;
 				}
 
 				.blockArticleTwoAndThree {
@@ -392,6 +390,7 @@ $backgroundHeader: #2c2c2c;
 		}
 
 		.allWriters .wrapperWriter {
+			max-width: 137px;
 			margin-left: 3px;
 			&:first-child {
 				margin-right: 7px !important;
@@ -415,6 +414,7 @@ $backgroundHeader: #2c2c2c;
 					color: #646464;
 					padding: 8px 16px 8px;
 					background-color: #f8f8f8;
+					max-width: 137px;
 				}
 			}
 		}
