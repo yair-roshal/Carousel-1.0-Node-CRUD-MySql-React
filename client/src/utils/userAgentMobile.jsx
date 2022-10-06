@@ -4,10 +4,8 @@ export const userAgentMobile = () => {
 			navigator.userAgent,
 		)
 	) {
-		console.log('mobile');
 		return true;
 	} else {
-		console.log('pc');
 		return false;
 	}
 };

@@ -11,12 +11,10 @@ export const AddWriter = () => {
 	} = useForm();
 
 	const onSubmit = data => {
-		console.log('data===', data);
 
 		axios
 			.post('http://localhost:5000/', data)
 			.then(res => {
-				console.log('res.status', res.status);
 				if (res.status === 200) {
 					alert('Client successfully added');
 				} else Promise.reject();

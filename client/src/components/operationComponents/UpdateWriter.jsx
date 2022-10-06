@@ -23,7 +23,6 @@ export const UpdateWriter = props => {
 	}, []);
 
 	const onSubmit = clientObject => {
-		console.log('clientObject', clientObject);
 		axios
 			.put('http://localhost:5000/' + props.match.params.id, clientObject)
 			.then(res => {
