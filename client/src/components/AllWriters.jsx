@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { WriterItem } from 'components'; 
+import { WriterItem } from 'components';
 import { userAgentMobile } from 'utils';
 
 export const AllWriters = ({ writers, isButtons }) => {
