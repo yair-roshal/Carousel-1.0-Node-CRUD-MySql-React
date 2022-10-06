@@ -388,34 +388,35 @@ $backgroundHeader: #2c2c2c;
 			}
 		}
 
-		.allWriters .wrapperWriter {
+		.allWriters {
 			overflow: auto;
-
-			max-width: 137px;
-			margin-left: 3px;
-			&:first-child {
-				margin-right: 7px !important;
-			}
-			.wrapperImage {
-				width: 137px;
-				height: 166px;
-				.shadowWriterName {
-					font-size: 14px;
-					height: 19px;
-					line-height: 19px;
-					bottom: 9px;
-					border-radius: 2px;
-					padding: 1 13px;
+			.wrapperWriter {
+				max-width: 137px;
+				margin-left: 3px;
+				&:first-child {
+					margin-right: 7px !important;
 				}
-			}
+				.wrapperImage {
+					width: 137px;
+					height: 166px;
+					.shadowWriterName {
+						font-size: 14px;
+						height: 19px;
+						line-height: 19px;
+						bottom: 9px;
+						border-radius: 2px;
+						padding: 1 13px;
+					}
+				}
 
-			.wrapperInfo {
-				.blockArticleOne {
-					font-size: 12px;
-					color: #646464;
-					padding: 8px 16px 8px;
-					background-color: #f8f8f8;
-					max-width: 137px;
+				.wrapperInfo {
+					.blockArticleOne {
+						font-size: 12px;
+						color: #646464;
+						padding: 8px 16px 8px;
+						background-color: #f8f8f8;
+						max-width: 137px;
+					}
 				}
 			}
 		}
